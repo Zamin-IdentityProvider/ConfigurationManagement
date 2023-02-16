@@ -18,9 +18,9 @@ public class Name : BaseValueObject<Name>
         {
             throw new InvalidValueObjectStateException("ValidationErrorIsRequire", nameof(Name));
         }
-        if (value.Length < 2 || value.Length > 250)
+        if (value.Length < 1 || value.Length > 250)
         {
-            throw new InvalidValueObjectStateException("ValidationErrorStringLength", nameof(Name), "2", "250");
+            throw new InvalidValueObjectStateException("ValidationErrorStringLength", nameof(Name), "1", "250");
         }
         Value = value;
     }

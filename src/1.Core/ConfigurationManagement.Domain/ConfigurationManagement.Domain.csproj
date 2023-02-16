@@ -12,8 +12,6 @@
 
   <ItemGroup>
     <Folder Include="Common\ValueObjects\Enableds\" />
-    <Folder Include="Common\ValueObjects\Descriptions\" />
-    <Folder Include="IdentityResources\ValueObjects\" />
   </ItemGroup>
 
 </Project>
