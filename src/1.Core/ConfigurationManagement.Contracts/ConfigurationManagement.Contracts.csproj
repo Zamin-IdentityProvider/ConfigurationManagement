@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Zamin.Core.Contracts" Version="7.0.0-beta.1" />
+  </ItemGroup>
+
 </Project>
